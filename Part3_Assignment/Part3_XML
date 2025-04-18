@@ -1,0 +1,161 @@
+Part 3, xml Activity 1
+
+<entity-engine-xml>
+<ProdCatalog prodCatalogId="Shoes Catalog." catalogName="Shoes Catalog."/>
+
+<ProductCategory productCategoryId="Men"/>
+<ProductCategory productCategoryId="Women"/>
+<ProductCategory productCategoryId="Children"/>
+<ProductCategory productCategoryId="Promotion"/>
+<ProductCategory productCategoryId="MSports"/>
+<ProductCategory productCategoryId="MFormal"/>
+<ProductCategory productCategoryId="MParty"/>
+<ProductCategory productCategoryId="WSports"/>
+<ProductCategory productCategoryId="WFormal"/>
+<ProductCategory productCategoryId="WParty"/>
+
+<ProductCategoryRollup productCategoryId="MSports" parentProductCategoryId="Men" fromDate="2025-04-18 12:00:00.0" />
+<ProductCategoryRollup productCategoryId="MFormal" parentProductCategoryId="Men" fromDate="2025-04-18 12:00:00.0" />
+<ProductCategoryRollup productCategoryId="MParty" parentProductCategoryId="Men" fromDate="2025-04-18 12:00:00.0" />
+<ProductCategoryRollup productCategoryId="WSports" parentProductCategoryId="Women" fromDate="2025-04-18 12:00:00.0" />
+<ProductCategoryRollup productCategoryId="WFormal" parentProductCategoryId="Women" fromDate="2025-04-18 12:00:00.0" />
+<ProductCategoryRollup productCategoryId="WParty" parentProductCategoryId="Women" fromDate="2025-04-18 12:00:00.0" />
+
+<ProdCatalogCategory prodCatalogId="Shoes Catalog." productCategoryId="Men" prodCatalogCategoryTypeId="PCCT_BROWSE_ROOT" fromDate="2025-04-18 12:00:00.0"/>
+<ProdCatalogCategory prodCatalogId="Shoes Catalog." productCategoryId="Women" prodCatalogCategoryTypeId="PCCT_BROWSE_ROOT" fromDate="2025-04-18 12:00:00.0"/>
+
+</entity-engine-xml>
+
+ACTIVITY 2
+1)Features
+<ProductFeature productFeatureId="7" productFeatureTypeId="SIZE" description="7" />
+<ProductFeature productFeatureId="8" productFeatureTypeId="SIZE" description="8" />
+<ProductFeature productFeatureId="9" productFeatureTypeId="SIZE" description="9" />
+<ProductFeature productFeatureId="10" productFeatureTypeId="SIZE" description="10" />
+<ProductFeature productFeatureId="2" productFeatureTypeId="SIZE" description="2" />
+<ProductFeature productFeatureId="3" productFeatureTypeId="SIZE" description="3" />
+<ProductFeature productFeatureId="4" productFeatureTypeId="SIZE" description="4" />
+<ProductFeature productFeatureId="5" productFeatureTypeId="SIZE" description="5" />
+
+<ProductFeature productFeatureId="White" productFeatureTypeId="COLOR" description="White" />
+<ProductFeature productFeatureId="Brown" productFeatureTypeId="COLOR" description="Brown" />
+<ProductFeature productFeatureId="Red" productFeatureTypeId="COLOR" description="Red" />
+<ProductFeature productFeatureId="Black" productFeatureTypeId="COLOR" description="Black" />
+
+2)Products
+<Product productId="MS-1" />
+<Product productId="MS-2" />
+<Product productId="MF-1" />
+<Product productId="MF-2" />
+<Product productId="MP-1" />
+<Product productId="MP-2" />
+<Product productId="WS-1" />
+<Product productId="WS-2" />
+<Product productId="WF-1" />
+<Product productId="WF-2" />
+<Product productId="WP-1" />
+<Product productId="WP-2" />
+<Product productId="C-1" />
+<Product productId="C-2" />
+
+<ProductFeatureAppl productId="MS-1" productFeatureId="7" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MS-1" productFeatureId="8" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MS-1" productFeatureId="9" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MS-1" productFeatureId="10" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MS-1" productFeatureId="White" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MS-1" productFeatureId="Brown" fromDate="2025-04-18 12:00:00.0" />
+
+<ProductFeatureAppl productId="MS-2" productFeatureId="7" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MS-2" productFeatureId="10" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MS-2" productFeatureId="Red" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MS-2" productFeatureId="Black" fromDate="2025-04-18 12:00:00.0" />
+
+<ProductFeatureAppl productId="MF-1" productFeatureId="7" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MF-1" productFeatureId="10" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MF-1" productFeatureId="Red" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MF-1" productFeatureId="Black" fromDate="2025-04-18 12:00:00.0" />
+
+<ProductFeatureAppl productId="MF-2" productFeatureId="7" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MF-2" productFeatureId="8" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MF-2" productFeatureId="9" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MF-2" productFeatureId="10" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MF-2" productFeatureId="White" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MF-2" productFeatureId="Brown" fromDate="2025-04-18 12:00:00.0" />
+
+<ProductFeatureAppl productId="Mp-1" productFeatureId="7" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="Mp-1" productFeatureId="8" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="Mp-1" productFeatureId="9" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="Mp-1" productFeatureId="10" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="Mp-1" productFeatureId="White" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="Mp-1" productFeatureId="Brown" fromDate="2025-04-18 12:00:00.0" />
+
+<ProductFeatureAppl productId="MP-2" productFeatureId="7" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="Mp-2" productFeatureId="8" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="Mp-2" productFeatureId="9" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MP-2" productFeatureId="10" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MP-2" productFeatureId="Red" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="MP-2" productFeatureId="Black" fromDate="2025-04-18 12:00:00.0" />
+
+<ProductFeatureAppl productId="WS-1" productFeatureId="7" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WS-1" productFeatureId="8" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WS-1" productFeatureId="9" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WS-1" productFeatureId="White" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WS-1" productFeatureId="Brown" fromDate="2025-04-18 12:00:00.0" />
+
+<ProductFeatureAppl productId="WS-2" productFeatureId="7" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WS-2" productFeatureId="8" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WS-2" productFeatureId="9" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WS-2" productFeatureId="Red" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WS-2" productFeatureId="Black" fromDate="2025-04-18 12:00:00.0" />
+
+<ProductFeatureAppl productId="WF-1" productFeatureId="7" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WF-1" productFeatureId="8" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WF-1" productFeatureId="9" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WF-1" productFeatureId="White" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WF-1" productFeatureId="Brown" fromDate="2025-04-18 12:00:00.0" />
+
+<ProductFeatureAppl productId="WF-2" productFeatureId="7" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WF-2" productFeatureId="8" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WF-2" productFeatureId="9" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WF-2" productFeatureId="Red" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WF-2" productFeatureId="Black" fromDate="2025-04-18 12:00:00.0" />
+
+<ProductFeatureAppl productId="WP-1" productFeatureId="7" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WP-1" productFeatureId="8" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WP-1" productFeatureId="White" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WP-1" productFeatureId="Brown" fromDate="2025-04-18 12:00:00.0" />
+
+<ProductFeatureAppl productId="WP-2" productFeatureId="7" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WP-2" productFeatureId="8" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WP-2" productFeatureId="Red" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="WP-2" productFeatureId="Black" fromDate="2025-04-18 12:00:00.0" />
+
+<ProductFeatureAppl productId="C-1" productFeatureId="2" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="C-1" productFeatureId="3" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="C-1" productFeatureId="4" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="C-1" productFeatureId="5" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="C-1" productFeatureId="White" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="C-1" productFeatureId="Brown" fromDate="2025-04-18 12:00:00.0" />
+
+<ProductFeatureAppl productId="C-2" productFeatureId="2" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="C-2" productFeatureId="3" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="C-2" productFeatureId="5" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="C-2" productFeatureId="Red" fromDate="2025-04-18 12:00:00.0" />
+<ProductFeatureAppl productId="C-2" productFeatureId="Black" fromDate="2025-04-18 12:00:00.0" />
+
+Activity 3 – Create Promotion
+<ProductCategory productCategoryId="Promotion" />
+<ProdCatalogCategory prodCatalogId="Shoes Catalog." productCategoryId="Promotion" prodCatalogCategoryTypeId="PCCT_PROMOTIONS" fromDate="2025-04-18 12:00:00.0"/>
+<ProdCatalogCategory prodCatalogId="Shoes Catalog." productCategoryId="Promotion" prodCatalogCategoryTypeId="PCCT_PROMOTIONS" fromDate="2025-04-18 12:00:00.0"/>
+
+<ProductCategoryMember productCategoryId="Promotion" productId="MS-1" fromDate="2025-04-18 12:00:00.0" />
+<ProductCategoryMember productCategoryId="Promotion" productId="MF-2" fromDate="2025-04-18 12:00:00.0" />
+<ProductCategoryMember productCategoryId="Promotion" productId="MP-1" fromDate="2025-04-18 12:00:00.0" />
+<ProductCategoryMember productCategoryId="Promotion" productId="WS-1" fromDate="2025-04-18 12:00:00.0" />
+<ProductCategoryMember productCategoryId="Promotion" productId="WF-1" fromDate="2025-04-18 12:00:00.0" />
+<ProductCategoryMember productCategoryId="Promotion" productId="WP-1" fromDate="2025-04-18 12:00:00.0" />
+<ProductCategoryMember productCategoryId="Promotion" productId="C-1" fromDate="2025-04-18 12:00:00.0" />
+<ProductCategoryMember productCategoryId="Promotion" productId="C-2" fromDate="2025-04-18 12:00:00.0" />
+
+
+
